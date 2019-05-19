@@ -8,7 +8,45 @@
 	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
 	<Property Name="NI.XItem.Name" Type="Str">XNode 1</Property>
 	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">true</Property>
-	<Item Name="RetryNode State.ctl" Type="Ability VI" URL="../RetryNode State.ctl">
+	<Item Name="Utils" Type="Folder">
+		<Item Name="Options Dialog.vi" Type="VI" URL="../Options Dialog.vi"/>
+		<Item Name="utils_GetSubVITerms.vi" Type="VI" URL="../utils_GetSubVITerms.vi"/>
+	</Item>
+	<Item Name="BuildMenu.vi" Type="Ability VI" URL="../BuildMenu.vi">
+		<Property Name="NI.XItem.Name" Type="Str">BuildMenu5</Property>
+	</Item>
+	<Item Name="CanAcceptDataDrag.vi" Type="Ability VI" URL="../CanAcceptDataDrag.vi">
+		<Property Name="NI.XItem.Name" Type="Str">CanAcceptDataDrag3</Property>
+	</Item>
+	<Item Name="GetBounds.vi" Type="Ability VI" URL="../GetBounds.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Bounds</Property>
+	</Item>
+	<Item Name="GetDataForDrag.vi" Type="Ability VI" URL="../GetDataForDrag.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GetDataForDrag</Property>
+	</Item>
+	<Item Name="GetDisplayName.vi" Type="Ability VI" URL="../GetDisplayName.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GetDisplayName3</Property>
+	</Item>
+	<Item Name="GetImage.vi" Type="Ability VI" URL="../GetImage.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Image</Property>
+	</Item>
+	<Item Name="GetTerms.vi" Type="Ability VI" URL="../GetTerms.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GetTerms4</Property>
+	</Item>
+	<Item Name="Init.vi" Type="Ability VI" URL="../Init.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Initialize</Property>
+	</Item>
+	<Item Name="OnDataDrag.vi" Type="Ability VI" URL="../OnDataDrag.vi">
+		<Property Name="NI.XItem.Name" Type="Str">OnDataDrag3</Property>
+	</Item>
+	<Item Name="OnDoubleClick.vi" Type="Ability VI" URL="../OnDoubleClick.vi">
+		<Property Name="NI.XItem.Name" Type="Str">OnDoubleClick2</Property>
+	</Item>
+	<Item Name="Options.ctl" Type="VI" URL="../Options.ctl"/>
+	<Item Name="SelectMenu.vi" Type="Ability VI" URL="../SelectMenu.vi">
+		<Property Name="NI.XItem.Name" Type="Str">SelectMenu5</Property>
+	</Item>
+	<Item Name="State.ctl" Type="Ability VI" URL="../State.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">State</Property>
 	</Item>
 </XNode>
